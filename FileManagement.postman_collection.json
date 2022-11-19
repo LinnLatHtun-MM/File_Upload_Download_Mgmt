@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "d24b2543-2a99-43f5-ac92-7f8a711ac69f",
+		"name": "FileManagement",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/downloadFile/159",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/downloadFile/159",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"downloadFile",
+						"159"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/uploadFile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/Users/linnlathtun/Desktop/Cat.jpeg"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/uploadFile",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"uploadFile"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
